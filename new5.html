@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="あなたの知らない映画に出会う">
+<meta name="viewport" content="width=device-width">
+<title>映画ソムリエ</title>
+<link rel="stylesheet" media="all" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+
+<nav id="mainnav">
+	<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
+	<div class="panel">
+		<ul>
+			<li><a href="index.html">TOP</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+<header id="newheader">
+	<img src="images/movie2.jpg" alt="" class="haikei">
+	<div id="slogan">
+		<h3>映画ソムリエ</h3>
+	</div>
+</header>
+
+
+
+<!-- new5.html -->
+<!-- new5.html -->
+<section class="sec06">
+	<div class="inner">
+		<h2>QUESTION</h2>
+		<form action="answer.html" method="post">
+			<ul class="col2">
+				<li class="newqes">
+					<p>心温まる映画が好きですか？</p>
+					<label><input type="radio" name="answer" value="yes"> はい</label>
+					<label><input type="radio" name="answer" value="no"> いいえ</label>
+				</li>
+				<input type="hidden" name="Yes_input" value="{{ Yes_input }}">
+				<button type="submit">回答する</button>
+			</ul>
+		</form>
+		<div id="mens" style="margin-top: -200px;">
+			<img src="images/men4.png" alt="" style="width: 400px; float: left;">
+		</div>
+	</div>
+</section>
+<!-- // STORY -->
+
+
+<footer id="footer" >
+
+</footer>
+
+</body>
+</html>
